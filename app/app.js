@@ -182,7 +182,7 @@ function vOwner() {
         <div class="panel stack"><h3>Last 7 days</h3><div class="chart">${bars}</div><p class="muted" style="font-size:13px">This week ${inr(w)} · this month ${inr(mtd)}</p></div>
         <div class="panel stack"><h3>His year</h3>
           <p style="font-size:28px;font-family:var(--f-display);font-weight:700">${inr(sum.ownerPay[j])}</p>
-          <p class="muted" style="font-size:13.5px">earned from sun he did not need, about ${inr(sum.ownerPay[j] / 12)} a month. A ${pu.hp} HP owner's ${pu.hp === 3 ? "pack charger (₹10,000)" : "multi-use controller (₹35,000)"} pays back in ${sum.bySize[pu.hp].payback.toFixed(1)} years${pu.hp === 3 ? "" : `, ${sum.bySize[pu.hp].paybackCfa.toFixed(1)} after the 30% PM-KUSUM subsidy`}.</p>
+          <p class="muted" style="font-size:13.5px">earned from sun he did not need, about ${inr(sum.ownerPay[j] / 12)} a month. A ${pu.hp} HP owner's ${pu.hp === 3 ? "pack charger (₹10,000)" : "multi-use controller (₹35,000)"} pays back in ${sum.bySize[pu.hp].payback.toFixed(1)} years${pu.hp === 3 ? "" : " (the PM-KUSUM subsidy covers the pump, not the controller)"}.</p>
         </div>
       </div>
     </div>

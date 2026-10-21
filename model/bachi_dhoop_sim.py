@@ -81,7 +81,7 @@ PARAMS = {
     "owner_share_paani": 0.60,        # owner keeps 60% of Paani Seva revenue (it is his well)
     # Who pays for what (each party has its own business case)
     "owner_capex_uspc": 35000,        # per pump; Rs 33,900-38,000 market (IndiaMART; Kamal Meena paid Rs 38,000)
-    "uspc_cfa_share": 0.30,           # PM-KUSUM extended CFA to USPC (2020 amendment)
+    "uspc_cfa_share": 0.30,           # SENSITIVITY ONLY: KUSUM-B subsidy does not cover the USPC premium (PIB, 13 Nov 2020); a 30% state/CSR top-up is hypothetical
     "mandali_capex": {
         "Smart meter + relay per pump (15 x Rs 5,000)": 15 * 5000,
         "Dhoop Line to dairy hub (400 m LT cable)": 150000,

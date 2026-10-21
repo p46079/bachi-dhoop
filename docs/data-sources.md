@@ -41,7 +41,7 @@ Bachi Dhoop's prototype runs on a **simulation**, not field measurements. Every 
 | Diesel per kWh | 0.30 L (genset), 0.28 L (engine/shaft work) | Engineering estimate |
 | CO₂ | 2.68 kg per litre of diesel; 0.71 kg per grid kWh | CEA / IPCC factors |
 | Owner payout | ₹4.5 per kWh sold + 60% of Paani Seva revenue | Our design; compare Dhundi feed-in tariff ₹4.63/kWh (IWMI) |
-| Multi-use controller (USPC) | ₹35,000; 30% central subsidy (CFA) | IndiaMART listings; MNRE PM-KUSUM guidelines |
+| Multi-use controller (USPC) | ₹35,000, paid by the owner. USPC pumps are allowed under KUSUM-B since 2020, but the subsidy is set on the price of a pump without USPC, so it does not cover the controller | IndiaMART listings; Mongabay India (2023); PIB, 13 Nov 2020 |
 | Dhoop Mitra operator | 15% commission on what she collects | Our design |
 | Platform fee | ₹1,000 per pump a year | Our design |
 
@@ -49,11 +49,11 @@ Bachi Dhoop's prototype runs on a **simulation**, not field measurements. Every 
 
 | Item | Value | Basis |
 |---|---|---|
-| Off-grid KUSUM-B pumps installed | 11.49 lakh (June 2026): Maharashtra 5.52, Haryana 1.95, Rajasthan 1.28 lakh | Energetica India (Aug 2026), IBEF |
+| Off-grid KUSUM-B pumps installed | 11.49 lakh installed (Lok Sabha reply, Aug 2026): Maharashtra 5.52, Haryana 1.95, Rajasthan 1.28 lakh; 13.07 lakh sanctioned (30 Apr 2026) | Energetica India (3 Aug 2026); IBEF |
 
 ## Robustness
 
-The Python model is run with 50 random weather and irrigation draws; the 5th to 95th percentile of the headline results moves by under 3%. The browser engine uses a different random number generator, so its single run differs from the Python run by up to about 4% (see `tests/engine.test.mjs`); it stays inside the Python model's range.
+The Python model is run with 50 random weather and irrigation draws; the 5th to 95th percentile of the headline results stays within about 4% of the base run (for example, solar used 60.2–62.1%, diesel 4,910–5,159 L, co-op payback 7.2–7.6 years). The browser engine uses a different random number generator, so its single run differs from the Python run by up to about 4% (see `tests/engine.test.mjs`).
 
 ## What is not yet measured
 
