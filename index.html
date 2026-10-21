@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bachi Dhoop · Working Prototype</title>
+<meta name="description" content="Bachi Dhoop sells the idle power of PM-KUSUM off-grid solar pumps to buyers in the same village, through a cooperative. Working prototype of the dispatch platform.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='11' fill='%23f2a900'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="app/styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="#/"><span class="sun" aria-hidden="true"></span>Bachi Dhoop</a>
+    <nav class="nav" aria-label="Screens">
+      <a href="#/">Overview</a>
+      <a href="#/owner">Pump owner</a>
+      <a href="#/dispatch">Daily dispatch</a>
+      <a href="#/mitra">Dhoop Mitra</a>
+      <a href="#/meter">Meter-relay</a>
+      <a href="#/dairy">Dairy</a>
+      <a href="#/books">Co-op books &amp; impact</a>
+    </nav>
+    <button class="theme" id="theme" type="button" aria-label="Switch colour theme">Theme</button>
+  </div>
+  <div class="daybar" id="daybar">
+    <button class="iconbtn" id="prev" type="button" aria-label="Previous day">‹</button>
+    <span class="lbl" id="daylbl" aria-live="polite"></span>
+    <button class="iconbtn" id="next" type="button" aria-label="Next day">›</button>
+    <input type="range" id="day" min="0" max="364" aria-label="Day of the year">
+    <span class="daytag" id="daytag"></span>
+  </div>
+</header>
+<main id="view" tabindex="-1"></main>
+<footer>
+  Working prototype. Every screen runs on one model: 15 PM-KUSUM off-grid pumps (70.65 kWp) on 24 ha, simulated day by day for a year.
+  Figures are simulated from published data, not field measurements. Source and assumptions: <a href="https://github.com/p46079/bachi-dhoop">github.com/p46079/bachi-dhoop</a>.
+</footer>
+<script type="module" src="app/app.js"></script>
+</body>
+</html>

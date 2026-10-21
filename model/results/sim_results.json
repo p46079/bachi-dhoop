@@ -1,0 +1,500 @@
+{
+  "cluster": {
+    "pumps": 15,
+    "kwp_total": 70.64999999999999,
+    "hectares": 24.0
+  },
+  "generation_kwh": 103578,
+  "utilisation_baseline_pct": 37.0,
+  "utilisation_bd_pct": 62.2,
+  "baseline_irrigation_kwh": 38336,
+  "bd_irrigation_kwh": 34502,
+  "served_kwh": {
+    "chill": 9992,
+    "paani": 5820,
+    "gaadi": 5812,
+    "pack": 8267
+  },
+  "secondary_total_kwh": 29891,
+  "pack_delivered_kwh": 7441,
+  "unused_surplus_kwh_bd": 39185,
+  "diesel_displaced_l": 5049,
+  "diesel_by_load_l": {
+    "chill": 899,
+    "paani": 1630,
+    "gaadi": 1627,
+    "pack": 893
+  },
+  "diesel_value_rs": 494812,
+  "grid_kwh_displaced": 6994,
+  "co2_t": 18.5,
+  "water_saved_m3": 6900,
+  "per_ha": {
+    "diesel_l": 210.4,
+    "water_saved_m3": 288,
+    "extra_productive_kwh": 1086,
+    "co2_kg": 771
+  },
+  "revenue_rs": {
+    "Dairy chilling": 69944,
+    "Paani Seva": 69838,
+    "Dhoop Gaadi services": 127867,
+    "Dhoop Packs": 148811
+  },
+  "revenue_total_rs": 416460,
+  "owner_pay_total_rs": 150224,
+  "owner_pay_avg_rs": 10015,
+  "owner_by_size": {
+    "3 HP": {
+      "kit": "DC pack charger",
+      "income": 3533,
+      "capex": 10000,
+      "payback_yrs": 2.8,
+      "payback_after_cfa_yrs": 2.8
+    },
+    "5 HP": {
+      "kit": "USPC",
+      "income": 12492,
+      "capex": 35000,
+      "payback_yrs": 2.8,
+      "payback_after_cfa_yrs": 2.0
+    },
+    "7.5 HP": {
+      "kit": "USPC",
+      "income": 12053,
+      "capex": 35000,
+      "payback_yrs": 2.9,
+      "payback_after_cfa_yrs": 2.0
+    }
+  },
+  "owner_pay_min_max_rs": [
+    3513,
+    22047
+  ],
+  "owner_sold_share_of_gen_pct": [
+    69.6,
+    45.6,
+    20.5,
+    17.0,
+    16.4,
+    15.9,
+    17.4,
+    17.7,
+    17.9,
+    18.0,
+    17.8,
+    17.9,
+    18.2,
+    18.2,
+    18.0
+  ],
+  "mandali_capex_rs": {
+    "Smart meter + relay per pump (15 x Rs 5,000)": 75000,
+    "Dhoop Line to dairy hub (400 m LT cable)": 150000,
+    "Dhoop Gaadi trolley + 3 machines": 200000,
+    "Onboarding, training, setup": 75000,
+    "Dhoop Packs (12 x 2.4 kWh @ Rs 14,000/kWh)": 403200,
+    "Pack chargers (5 x Rs 10,000)": 50000
+  },
+  "owner_capex_total_rs": 425000,
+  "mandali_capex_total_rs": 953200,
+  "opex_rs": {
+    "Dhoop Mitra commission (15% of revenue)": 62469,
+    "Pack delivery e-cart": 30000,
+    "Maintenance (3% of Mandali capex)": 28596,
+    "Platform fee (Rs 1,000/pump/yr)": 15000
+  },
+  "opex_total_rs": 136065,
+  "mandali_net_rs": 130171,
+  "mandali_payback_yrs": 7.3,
+  "mandali_payback_with_grant_yrs": 3.7,
+  "dairy": {
+    "chill_cover_pct": 89.5,
+    "baseline_cost_per_kwh": 14.77,
+    "annual_saving_rs": 77638,
+    "incremental_capex_rs": 300000,
+    "payback_yrs": 3.9
+  },
+  "user_saving_rs": {
+    "Paani Seva buyers": 89858,
+    "Dhoop Gaadi users": 31618,
+    "Dhoop Pack users (diesel-replacing share only)": 27977
+  },
+  "system": {
+    "total_capex_rs": 1678200,
+    "annual_value_rs": 507486,
+    "payback_yrs": 3.3
+  },
+  "monthly": {
+    "generation": [
+      8374.0,
+      9186.3,
+      10947.1,
+      10950.4,
+      11007.3,
+      7260.3,
+      6590.6,
+      5476.9,
+      7213.7,
+      9459.8,
+      8639.7,
+      8472.3
+    ],
+    "irrigation_baseline": [
+      5498.6,
+      5660.8,
+      5606.1,
+      3183.2,
+      2246.8,
+      1025.8,
+      193.3,
+      180.9,
+      845.6,
+      3595.8,
+      4672.6,
+      5626.2
+    ],
+    "irrigation_bd": [
+      4948.8,
+      5094.7,
+      5045.5,
+      2864.9,
+      2022.1,
+      923.2,
+      174.0,
+      162.8,
+      761.0,
+      3236.2,
+      4205.3,
+      5063.5
+    ],
+    "chill": [
+      698.8,
+      785.8,
+      870.4,
+      855.0,
+      777.3,
+      765.0,
+      833.2,
+      863.1,
+      861.9,
+      984.3,
+      893.0,
+      804.2
+    ],
+    "paani": [
+      688.9,
+      579.2,
+      612.7,
+      604.5,
+      475.1,
+      308.4,
+      62.9,
+      71.3,
+      254.9,
+      614.0,
+      878.3,
+      669.4
+    ],
+    "gaadi": [
+      418.0,
+      390.2,
+      772.0,
+      816.5,
+      486.0,
+      416.1,
+      320.0,
+      283.2,
+      393.6,
+      626.6,
+      545.5,
+      344.5
+    ],
+    "pack": [
+      702.7,
+      634.7,
+      702.7,
+      680.0,
+      702.7,
+      680.0,
+      702.7,
+      702.7,
+      680.0,
+      702.7,
+      680.0,
+      696.6
+    ]
+  },
+  "phase1_no_packs": {
+    "utilisation_bd_pct": 54.2,
+    "secondary_total_kwh": 21624,
+    "diesel_displaced_l": 4156,
+    "co2_t": 16.1,
+    "revenue_total_rs": 267649,
+    "owner_pay_avg_rs": 7535,
+    "owner_by_size": {
+      "3 HP": {
+        "kit": "DC pack charger",
+        "income": 0,
+        "capex": 10000,
+        "payback_yrs": null,
+        "payback_after_cfa_yrs": null
+      },
+      "5 HP": {
+        "kit": "USPC",
+        "income": 10138,
+        "capex": 35000,
+        "payback_yrs": 3.5,
+        "payback_after_cfa_yrs": 2.4
+      },
+      "7.5 HP": {
+        "kit": "USPC",
+        "income": 10639,
+        "capex": 35000,
+        "payback_yrs": 3.3,
+        "payback_after_cfa_yrs": 2.3
+      }
+    },
+    "mandali_capex_total_rs": 500000,
+    "opex_total_rs": 70147,
+    "mandali_net_rs": 84480,
+    "mandali_payback_yrs": 5.9,
+    "mandali_payback_with_grant_yrs": 3.0,
+    "system": {
+      "total_capex_rs": 1225000,
+      "annual_value_rs": 396616,
+      "payback_yrs": 3.1
+    },
+    "per_ha": {
+      "diesel_l": 173.2,
+      "water_saved_m3": 288,
+      "extra_productive_kwh": 741,
+      "co2_kg": 671
+    },
+    "user_saving_rs": {
+      "Paani Seva buyers": 89858,
+      "Dhoop Gaadi users": 31618,
+      "Dhoop Pack users (diesel-replacing share only)": 0
+    }
+  },
+  "robustness_50_seeds_p5_p95": {
+    "utilisation_baseline_pct": [
+      35.6,
+      37.3
+    ],
+    "utilisation_bd_pct": [
+      60.2,
+      62.1
+    ],
+    "diesel_displaced_l": [
+      4909.5,
+      5158.6
+    ],
+    "mandali_net_rs": [
+      125197.9,
+      132362.0
+    ],
+    "mandali_payback_yrs": [
+      7.2,
+      7.6
+    ],
+    "owner_pay_avg_rs": [
+      9809.5,
+      10186.6
+    ]
+  },
+  "sensitivity": {
+    "irrigation saving": [
+      {
+        "value": 0.0,
+        "diesel_l": 4801,
+        "mandali_net": 125034,
+        "mandali_payback": 7.6,
+        "system_payback": 3.5,
+        "owner_avg": 9501,
+        "water_saved_m3": 0,
+        "dairy_saving": 73859
+      },
+      {
+        "value": 0.1,
+        "diesel_l": 5049,
+        "mandali_net": 130171,
+        "mandali_payback": 7.3,
+        "system_payback": 3.3,
+        "owner_avg": 10015,
+        "water_saved_m3": 6900,
+        "dairy_saving": 77638
+      },
+      {
+        "value": 0.2,
+        "diesel_l": 5269,
+        "mandali_net": 133120,
+        "mandali_payback": 7.2,
+        "system_payback": 3.2,
+        "owner_avg": 10448,
+        "water_saved_m3": 13801,
+        "dairy_saving": 80826
+      }
+    ],
+    "baseline DG share at dairy": [
+      {
+        "value": 0.15,
+        "diesel_l": 4599,
+        "mandali_net": 130171,
+        "mandali_payback": 7.3,
+        "system_payback": 3.5,
+        "owner_avg": 10015,
+        "water_saved_m3": 6900,
+        "dairy_saving": 46313
+      },
+      {
+        "value": 0.3,
+        "diesel_l": 5049,
+        "mandali_net": 130171,
+        "mandali_payback": 7.3,
+        "system_payback": 3.3,
+        "owner_avg": 10015,
+        "water_saved_m3": 6900,
+        "dairy_saving": 77638
+      },
+      {
+        "value": 0.5,
+        "diesel_l": 5649,
+        "mandali_net": 130171,
+        "mandali_payback": 7.3,
+        "system_payback": 3.1,
+        "owner_avg": 10015,
+        "water_saved_m3": 6900,
+        "dairy_saving": 119405
+      }
+    ],
+    "pack price Rs/kWh": [
+      {
+        "value": 16.0,
+        "diesel_l": 5049,
+        "mandali_net": 104873,
+        "mandali_payback": 9.1,
+        "system_payback": 3.4,
+        "owner_avg": 10015,
+        "water_saved_m3": 6900,
+        "dairy_saving": 77638
+      },
+      {
+        "value": 20.0,
+        "diesel_l": 5049,
+        "mandali_net": 130171,
+        "mandali_payback": 7.3,
+        "system_payback": 3.3,
+        "owner_avg": 10015,
+        "water_saved_m3": 6900,
+        "dairy_saving": 77638
+      },
+      {
+        "value": 24.0,
+        "diesel_l": 5049,
+        "mandali_net": 155469,
+        "mandali_payback": 6.1,
+        "system_payback": 3.2,
+        "owner_avg": 10015,
+        "water_saved_m3": 6900,
+        "dairy_saving": 77638
+      }
+    ],
+    "owner payout Rs/kWh": [
+      {
+        "value": 3.5,
+        "diesel_l": 5049,
+        "mandali_net": 154242,
+        "mandali_payback": 6.2,
+        "system_payback": 3.3,
+        "owner_avg": 8410,
+        "water_saved_m3": 6900,
+        "dairy_saving": 77638
+      },
+      {
+        "value": 4.5,
+        "diesel_l": 5049,
+        "mandali_net": 130171,
+        "mandali_payback": 7.3,
+        "system_payback": 3.3,
+        "owner_avg": 10015,
+        "water_saved_m3": 6900,
+        "dairy_saving": 77638
+      },
+      {
+        "value": 5.5,
+        "diesel_l": 5049,
+        "mandali_net": 106099,
+        "mandali_payback": 9.0,
+        "system_payback": 3.3,
+        "owner_avg": 11620,
+        "water_saved_m3": 6900,
+        "dairy_saving": 77638
+      }
+    ],
+    "Dhoop Gaadi price Rs/kWh-eq": [
+      {
+        "value": 16.0,
+        "diesel_l": 5049,
+        "mandali_net": 100529,
+        "mandali_payback": 9.5,
+        "system_payback": 3.3,
+        "owner_avg": 10015,
+        "water_saved_m3": 6900,
+        "dairy_saving": 77638
+      },
+      {
+        "value": 22.0,
+        "diesel_l": 5049,
+        "mandali_net": 130171,
+        "mandali_payback": 7.3,
+        "system_payback": 3.3,
+        "owner_avg": 10015,
+        "water_saved_m3": 6900,
+        "dairy_saving": 77638
+      },
+      {
+        "value": 26.0,
+        "diesel_l": 5049,
+        "mandali_net": 149932,
+        "mandali_payback": 6.4,
+        "system_payback": 3.3,
+        "owner_avg": 10015,
+        "water_saved_m3": 6900,
+        "dairy_saving": 77638
+      }
+    ],
+    "diesel price Rs/L": [
+      {
+        "value": 85.0,
+        "diesel_l": 5049,
+        "mandali_net": 130171,
+        "mandali_payback": 7.3,
+        "system_payback": 3.8,
+        "owner_avg": 10015,
+        "water_saved_m3": 6900,
+        "dairy_saving": 65948
+      },
+      {
+        "value": 98.0,
+        "diesel_l": 5049,
+        "mandali_net": 130171,
+        "mandali_payback": 7.3,
+        "system_payback": 3.3,
+        "owner_avg": 10015,
+        "water_saved_m3": 6900,
+        "dairy_saving": 77638
+      },
+      {
+        "value": 110.0,
+        "diesel_l": 5049,
+        "mandali_net": 130171,
+        "mandali_payback": 7.3,
+        "system_payback": 3.0,
+        "owner_avg": 10015,
+        "water_saved_m3": 6900,
+        "dairy_saving": 88430
+      }
+    ]
+  }
+}
